@@ -55,6 +55,6 @@ echo $templater->render('template_folder/template_name', ['data_1'=>'test text 1
 ## Вызов шаблона из другого шаблона
 ```PHP
 <hr>
-<?php $this->templater->display('template_folder/template_name_2', ['data_3'=>'test text 3',]) ?>
+<?php $this->templater->display('template_folder/template_name_2', ['data_3'=>'test text 3']) ?>
 <hr>
 ```
